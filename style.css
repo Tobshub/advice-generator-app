@@ -109,8 +109,8 @@ body {
 
   .advice-id {
     color: var(--color-primary-neon);
-    font-size: .75em;
-    font-weight: 500;
+    font-size: .5em;
+    font-weight: 600;
     letter-spacing: .2rem;
     text-transform: uppercase;
     width: 100%;
@@ -121,7 +121,7 @@ body {
 
   .advice {
     color: var(--color-primary-light);
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 800;
     text-align: center;
     width: 100%;
@@ -140,7 +140,7 @@ body {
   }
 
   #dice-icon {
-    width: 3em;
+    width: 2.5em;
     aspect-ratio: 1/1;
     /* padding: .5em; */
     border-radius: 50%;
@@ -150,7 +150,6 @@ body {
     translate: -50% 50%;
     background-color: var(--color-primary-neon);
     background-image: url(./images/icon-dice.svg);
-    background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
   }
